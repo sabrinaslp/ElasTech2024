@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f0c88b6-a408-4e36-827c-8ebe5caf5a70" name="Changes" comment="add exercicio 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1f0c88b6-a408-4e36-827c-8ebe5caf5a70" name="Changes" comment="add exercicios 4 e 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709770623508</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add exercicios 4 e 5">
+      <option name="closed" value="true" />
+      <created>1709771484270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709771484270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add exercicio 1" />
     <MESSAGE value="add exercicio 2" />
     <MESSAGE value="add exercicio 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exercicio 3" />
+    <MESSAGE value="add exercicios 4 e 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exercicios 4 e 5" />
   </component>
 </project>
