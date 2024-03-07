@@ -52,6 +52,16 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
         System.out.println("-------------------------- Exercício 3 --------------------------");
 
+        int idadeJorge = 22, idadeLarissa = 10;
+
+        int soma = idadeJorge + idadeLarissa;
+        int multi = idadeJorge * idadeLarissa;
+        double div = (double) idadeJorge/idadeLarissa;
+
+        System.out.println("A SOMA entre as idades: " + soma);
+        System.out.println("A MULTIPLICAÇÃO entre as idades é igual a: " + multi);
+        System.out.printf("A DIVISÃO entre as idades é igual a: %.2f \n", div);
+
         /* ------------------------------------------------------------------------------------------------------
         4 - Desenvolva um codigo que solicite ao usuario seu Nome, Sobrenome, Idade, Endereço e ao final
         mostre todos os dados informados
