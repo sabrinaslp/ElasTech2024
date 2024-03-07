@@ -37,6 +37,8 @@ public class Main {
 
         System.out.println("Digite um número inteiro: ");
         int numero = scanner.nextInt();
+        scanner.nextLine(); // limpar o espaço do nextInt
+
         int antecessor = --numero;
 
         System.out.println("O ANTECESSOR é: " + antecessor);
@@ -69,21 +71,17 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
         System.out.println("-------------------------- Exercício 4 --------------------------");
 
-        System.out.println("Digite seu nome:");
-        String nomeDigitado = scanner.next();
-
-        System.out.println("Digite seu sobrenome:");
-        String sobrenome = scanner.next();
+        System.out.println("Digite seu nome e sobrenome:");
+        String nomeCompleto = scanner.nextLine();
 
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
-
-        scanner.nextLine();
+        scanner.nextLine(); // limpar o espaço do nextInt
 
         System.out.println("Digite seu endereço: ");
         String endereco = scanner.nextLine();
 
-        System.out.println("Nome completo: " + nomeDigitado + " " + sobrenome + " | Idade: " + idade + " | Endereço: " + endereco);
+        System.out.println("Nome completo: " + nomeCompleto + " | Idade: " + idade + " | Endereço: " + endereco);
 
         /* ------------------------------------------------------------------------------------------------------
         5 - Crie um algoritmo que cadastra o nome e a idade de um usuario, após o cadastro mostre em que ano esse
