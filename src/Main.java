@@ -1,10 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        /* 1- Fazer um programa que imprima a média aritmética dos números 8, 9 e 7.
+        /* ------------------------------------------------------------------------------------------------------
+        1- Fazer um programa que imprima a média aritmética dos números 8, 9 e 7.
         A média dos números 4, 5 e 6.
         A soma das duas médias.
-        A média das médias. */
+        A média das médias.
+        ------------------------------------------------------------------------------------------------------ */
 
         int a = 8, b = 9, c = 7;
         double media1 = (double) (a + b + c) / 3;
@@ -23,14 +27,44 @@ public class Main {
         double mediaDasMedias = (somaDasMedias)/2;
         System.out.println("-> A média das médias é igual a: " + mediaDasMedias);
 
-        /* 2 - Desenvolva um algoritmo em Java que leia um número inteiro e imprima o seu antecessor e seu sucessor. */
+        /* ------------------------------------------------------------------------------------------------------
+        2 - Desenvolva um algoritmo em Java que leia um número inteiro e imprima o seu antecessor e seu sucessor.
+        ------------------------------------------------------------------------------------------------------ */
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("-------------------------- Exercício 2 --------------------------");
 
-        /* 3 - Crie um codigo que contenha 3 operações matematicas de sua escolha. */
+        Scanner scanner = new Scanner(System.in);
 
-        /* 4 - Desenvolva um codigo que solicite ao usuario seu Nome, Sobrenome, Idade, Endereço e ao final
-        mostre todos os dados informados */
+        System.out.println("Digite um número inteiro: ");
+        int numero = scanner.nextInt();
+        int antecessor = --numero;
 
-        /* 5 - Crie um algoritmo que cadastra o nome e a idade de um usuario, após o cadastro mostre em que ano esse
-        usuario nasceu. */
+        System.out.println("O ANTECESSOR é: " + antecessor);
+
+        numero++; // volta a variável número para valor original (digitado)
+        int sucessor = ++numero;
+
+        System.out.println("O SUCESSOR é: " + sucessor);
+
+        /* ------------------------------------------------------------------------------------------------------
+        3 - Crie um codigo que contenha 3 operações matematicas de sua escolha.
+        ------------------------------------------------------------------------------------------------------ */
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("-------------------------- Exercício 3 --------------------------");
+
+        /* ------------------------------------------------------------------------------------------------------
+        4 - Desenvolva um codigo que solicite ao usuario seu Nome, Sobrenome, Idade, Endereço e ao final
+        mostre todos os dados informados
+        ------------------------------------------------------------------------------------------------------ */
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("-------------------------- Exercício 4 --------------------------");
+
+
+        /* ------------------------------------------------------------------------------------------------------
+        5 - Crie um algoritmo que cadastra o nome e a idade de um usuario, após o cadastro mostre em que ano esse
+        usuario nasceu.
+        ------------------------------------------------------------------------------------------------------*/
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("-------------------------- Exercício 5 --------------------------");
     }
 }
