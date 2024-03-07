@@ -69,6 +69,17 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
         System.out.println("-------------------------- Exercício 4 --------------------------");
 
+        System.out.println("Digite seu nome e sobrenome: ");
+        String nomeCompleto = scanner.nextLine();
+        scanner.nextLine();
+
+        System.out.println("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        System.out.println("Digite seu endereço: ");
+        String endereco = scanner.nextLine();
+
+        System.out.println("Nome completo: " + nomeCompleto + " | Idade: " + idade + " | Endereço: " + endereco);
 
         /* ------------------------------------------------------------------------------------------------------
         5 - Crie um algoritmo que cadastra o nome e a idade de um usuario, após o cadastro mostre em que ano esse
@@ -76,5 +87,15 @@ public class Main {
         ------------------------------------------------------------------------------------------------------*/
         System.out.println("----------------------------------------------------------------");
         System.out.println("-------------------------- Exercício 5 --------------------------");
+
+        System.out.println("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Digite sua idade: ");
+        int idadeDigitada = scanner.nextInt();
+
+        int anoNascimento = 2024 - idadeDigitada;
+
+        System.out.println("Você nasceu em: " + anoNascimento);
     }
 }
