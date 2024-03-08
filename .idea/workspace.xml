@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cde53b-b146-413f-8a1e-7758315de6b1" name="Changes" comment="" />
+    <list default="true" id="32cde53b-b146-413f-8a1e-7758315de6b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/Atividade_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_aulas/Atividade_IF/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/Atividade_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividades_entregues/Atividade_2_If_Else_Else-If/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +29,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dQMi3MlPZ3xkxnhT9acciQfW1M" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,10 +42,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Sabrina/Desktop/Sabrina/#ElasTech - 2024/ElasTech2024/Atividades_entregues"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sabrina\Desktop\Sabrina\#ElasTech - 2024\ElasTech2024\Atividades_entregues" />
+      <recent name="C:\Users\Sabrina\Desktop\Sabrina\#ElasTech - 2024\ElasTech2024\Atividades_aulas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
