@@ -174,7 +174,11 @@ public class Main {
         double valorTotalComDesconto = valorTotal - desconto;
 
         System.out.printf("Valor total após o desconto: R$ %.2f\n", valorTotalComDesconto);
-        System.out.println("Informe o método de pagamento: [1] Cartão de Crédito | [2] Boleto bancário | [3] Transferência Bancária:");
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("Informe o método de pagamento: " +
+                "\n[1] Cartão de Crédito " +
+                "\n[2] Boleto bancário" +
+                "\n[3] Transferência Bancária");
         int opcaoPagamento = scanner.nextInt();
         scanner.nextLine();
 
