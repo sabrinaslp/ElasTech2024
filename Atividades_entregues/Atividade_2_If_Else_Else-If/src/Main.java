@@ -112,7 +112,7 @@ public class Main {
         System.out.println("-------------------------- Exercício 5 -------------------------");
         System.out.println("----------------------------------------------------------------");
 
-        int positivo, negativo;
+        int positivo, numeroAbsoluto;
 
         System.out.println("Informe um número inteiro:");
         int num = scanner.nextInt();
@@ -122,8 +122,8 @@ public class Main {
             positivo = num;
             System.out.printf("O número %d é positivo.\n", positivo);
         } else if (num < 0) {
-            negativo = num;
-            System.out.printf("O número %d é negativo.\n", negativo);
+            numeroAbsoluto = Math.abs(num);
+            System.out.printf("O número %d é negativo. Seu valor absoluto é: %d \n", num, numeroAbsoluto);
         } else {
             System.out.println("O número é 0, digite outro!");
         }
