@@ -192,6 +192,8 @@ public class Main {
             case 3:
                 System.out.println("Método de pagamento selecionado: TRANSFERÊNCIA BANCÁRIA");
                 break;
+            default:
+                System.out.println("Opção inválida!");
         }
 
     }
