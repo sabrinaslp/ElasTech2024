@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f0c88b6-a408-4e36-827c-8ebe5caf5a70" name="Changes" comment="add exercicios 4 e 5">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Atividades_entregues/Atividade_2_If_Else_Else-If/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ElasTech2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ElasTech2024.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +17,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
