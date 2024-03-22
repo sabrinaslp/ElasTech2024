@@ -49,7 +49,11 @@ public class Suprimentos {
     }
 
     public void setQuantidadeComprada(int quantidadeComprada) {
-        this.quantidadeComprada = Math.max(quantidadeComprada, 0);
+        if (quantidadeComprada < 0) {
+            this.quantidadeComprada = 0;
+        } else {
+            this.quantidadeComprada = quantidadeComprada;
+        }
     }
 
     public double getPrecoUnitario() {
@@ -57,6 +61,10 @@ public class Suprimentos {
     }
 
     public void setPrecoUnitario(double precoUnitario) {
-        this.precoUnitario = Math.max(precoUnitario, 0.0);
+        if (precoUnitario < 0.0) {
+            this.precoUnitario = 0.0;
+        } else {
+            this.precoUnitario = precoUnitario;
+        }
     }
 }

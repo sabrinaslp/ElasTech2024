@@ -49,6 +49,10 @@ public class Colaborador {
     }
 
     public void setSalarioMensal(double salarioMensal) {
-        this.salarioMensal = salarioMensal;
+        if (salarioMensal < 0.0) {
+            this.salarioMensal = 0.0;
+        } else {
+            this.salarioMensal = salarioMensal;
+        }
     }
 }
