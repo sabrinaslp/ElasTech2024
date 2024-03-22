@@ -24,5 +24,4 @@ public class Main {
 
         System.out.printf("O NOVO salário anual d(a) %s %s é R$ %.2f \n", colaborador2.getPrimeiroNome(), colaborador2.getSobrenome(), salarioAnual);
     }
-
 }

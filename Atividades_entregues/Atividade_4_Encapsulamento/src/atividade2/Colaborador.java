@@ -9,7 +9,13 @@ public class Colaborador {
     public Colaborador(String primeiroNome, String sobrenome, double salarioMensal) {
         this.primeiroNome = primeiroNome;
         this.sobrenome = sobrenome;
-        this.salarioMensal = Math.max(salarioMensal, 0.0);
+
+        if (salarioMensal < 0.0) {
+            this.salarioMensal = 0.0;
+        } else {
+            this.salarioMensal = salarioMensal;
+        }
+
     }
 
     public double calculeSalarioAnual(double salarioMensal) {
