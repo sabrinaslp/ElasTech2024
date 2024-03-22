@@ -14,12 +14,12 @@ public class Main {
 
         System.out.println("\n====== Notícia boa!! Todo mundo recebeu 10% de aumento! ======\n");
 
-        colaborador1.calculeAumentoSalarial(colaborador1.getSalarioMensal());
+        colaborador1.setSalarioMensal(colaborador1.calculeAumentoSalarial(colaborador1.getSalarioMensal()));
         salarioAnual = colaborador1.calculeSalarioAnual(colaborador1.getSalarioMensal());
 
         System.out.printf("O NOVO salário anual d(a) %s %s é R$ %.2f \n", colaborador1.getPrimeiroNome(), colaborador1.getSobrenome(), salarioAnual);
 
-        colaborador2.calculeAumentoSalarial(colaborador2.getSalarioMensal());
+        colaborador1.setSalarioMensal(colaborador2.calculeAumentoSalarial(colaborador2.getSalarioMensal()));
         salarioAnual = colaborador2.calculeSalarioAnual(colaborador2.getSalarioMensal());
 
         System.out.printf("O NOVO salário anual d(a) %s %s é R$ %.2f \n", colaborador2.getPrimeiroNome(), colaborador2.getSobrenome(), salarioAnual);
